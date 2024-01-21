@@ -1,0 +1,23 @@
+{
+  "name": "merngoalsetterapp",
+  "version": "1.0.0",
+  "description": "Building Goal Setter App following Brad Traversy from Traversy Media",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+
+    
+  },
+  "author": "Tanveer",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
